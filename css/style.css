@@ -1,0 +1,101 @@
+body{
+  background-color:#797D7F;  
+}
+.box{
+  height:12cm;
+  width:360px;
+  background-color:#424242;
+  margin-top:3cm;
+  margin-left:auto;
+  margin-right:auto;
+  border-left:20px solid #78909C;
+  border-right:20px solid #78909C;
+  border-bottom:40px solid #78909C;
+  border-radius:10px;
+  box-shadow-bottom:10px #78909C;
+}
+.header{
+  border-top:10px solid #78909C;
+  border-top-radius:10px;
+  background-color:#78909C;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Indie Flower', cursive;
+  font-size:50px;
+}
+
+.ro{
+  
+  width: 33.33%;
+  float: left;
+  height: 107px;
+  border:2px solid #BDBDBD;
+  border-radius:5px;
+}
+.chasis{
+  display:none;
+}
+.reset{
+  padding-left:10px;
+  font-family: 'Pangolin', cursive;
+  font-size:20px;
+  display:none;
+  
+}
+.reset:hover{
+  border:1px dotted black;
+  border-radius:20px;
+}
+.home{
+ font-family: 'Pangolin', cursive;
+ font-size:40px; 
+ color:#D0D3D4;
+ padding-top:50px;
+  display:block;
+}
+.p1:hover,.p2:hover{
+border:1px dotted #D0D3D4;
+  border-radius:20px;
+}
+.choice{
+  font-family: 'Pangolin', cursive;
+ font-size:40px!important; 
+ color:#D0D3D4;
+ padding-top:30px;
+  display:none;
+}
+.fa{
+  font-size:60px!important; 
+}
+.fa-times:hover,.fa-circle-o:hover{
+  border:1px dotted #D0D3D4;
+  border-radius:20px;
+}
+.show{
+  display:block;
+}
+.hide{
+  display:none;
+}
+.side{
+  font-family: 'Pangolin', cursive;
+  background-color:#424242;
+  color:#D0D3D4;
+  top:3cm;
+  position: absolute;
+  transition: 0.3s;
+  padding:10px;
+  border-radius:5px 5px 0px 0px;
+  visibility:hidden;
+}
+.extra{
+  top:2cm;
+  visibility:visible;
+}
+.win{
+   font-family: 'Pangolin', cursive;
+ font-size:40px!important; 
+ color:#D0D3D4;
+ padding-top:30px;
+  display:none; 
+}
